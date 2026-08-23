@@ -1,2 +1,1 @@
-# Verde bonito
 Sitio para mostrar la invitación de ambas bodas, civil y católica.
