@@ -15,7 +15,7 @@
     --wine-dark: #5e1521;
     --rose-soft: #e9c9cb;
     --ink: #5a4a42;
-    --ink-soft: #645347;
+    --ink-soft: #40342a;
     --line: rgba(124,31,46,0.22);
     --radius-lg: 22px;
   }
@@ -45,8 +45,9 @@
 
   .eyebrow{
     text-align:center;
-    letter-spacing:4px;
-    font-size:12px;
+    letter-spacing:3.5px;
+    font-size:13px;
+    font-weight:600;
     color:var(--ink-soft);
     margin:0 0 14px;
   }
@@ -65,16 +66,16 @@
 
   /* ---------- PORTADA ---------- */
   .cover{ text-align:center; padding-top:56px; padding-bottom:18px; }
-  .cover .kicker{ letter-spacing:5px; font-size:13px; color:var(--ink-soft); margin-bottom:12px; }
+  .cover .kicker{ letter-spacing:4.5px; font-size:14px; font-weight:600; color:var(--ink-soft); margin-bottom:12px; }
   .cover .names{
     font-family:'Alex Brush', cursive;
     font-size:58px; color:var(--wine); line-height:1.05; margin-bottom:10px;
   }
   .cover .datebar{
     display:flex; align-items:center; justify-content:center; gap:12px;
-    color:var(--ink-soft); font-size:16px; letter-spacing:1.5px; margin-bottom:20px;
+    color:var(--ink-soft); font-size:17px; font-weight:600; letter-spacing:1.5px; margin-bottom:20px;
   }
-  .cover .datebar span{ opacity:0.6; }
+  .cover .datebar span{ opacity:0.75; }
   .hero-art{ width:100%; max-width:330px; }
 
   /* ---------- MELODÍA ---------- */
@@ -88,7 +89,7 @@
     text-align:center; padding:12px 4px;
   }
   .countdown .cell .num{ font-size:26px; color:var(--wine); display:block; line-height:1.2; }
-  .countdown .cell .lbl{ font-size:10px; letter-spacing:1.5px; color:var(--ink-soft); }
+  .countdown .cell .lbl{ font-size:11px; font-weight:600; letter-spacing:1.5px; color:var(--ink-soft); }
 
   .message{
     text-align:center; font-size:18px; line-height:1.75;
@@ -96,7 +97,7 @@
   }
 
   .weexpect{ text-align:center; }
-  .weexpect .lbl{ letter-spacing:4px; font-size:12px; color:var(--ink-soft); margin-bottom:10px; }
+  .weexpect .lbl{ letter-spacing:3.5px; font-size:13px; font-weight:600; color:var(--ink-soft); margin-bottom:10px; }
   .weexpect .date{ font-size:26px; color:var(--wine); line-height:1.35; }
 
   /* ---------- CALENDARIO ---------- */
@@ -109,14 +110,14 @@
   }
   table.cal{ width:100%; border-collapse:collapse; table-layout:fixed; }
   table.cal th, table.cal td{ width:14.2857%; text-align:center; padding:0; }
-  table.cal th{ font-size:12px; color:var(--ink-soft); font-weight:500; padding-bottom:10px; }
+  table.cal th{ font-size:13px; color:var(--ink-soft); font-weight:600; padding-bottom:10px; }
   table.cal td{ font-size:14px; color:var(--ink); height:32px; vertical-align:middle; }
   table.cal td span{
     display:inline-flex; align-items:center; justify-content:center;
     width:28px; height:28px; border-radius:50%;
   }
   table.cal td.active span{ background:var(--wine); color:#fff; }
-  .cal-time{ text-align:center; margin-top:12px; font-size:15px; color:var(--ink-soft); }
+  .cal-time{ text-align:center; margin-top:12px; font-size:16px; font-weight:500; color:var(--ink-soft); }
 
   /* ---------- ITINERARIO ---------- */
   .stop{ text-align:center; margin-bottom:34px; }
@@ -126,9 +127,9 @@
     display:block; font-weight:500; color:var(--wine); font-size:20px; margin-bottom:5px;
   }
   .stop .text .time{
-    display:block; font-size:13px; letter-spacing:2px; color:var(--ink-soft); margin-bottom:6px;
+    display:block; font-size:14px; font-weight:600; letter-spacing:2px; color:var(--ink-soft); margin-bottom:6px;
   }
-  .stop .text p{ margin:0 0 14px; font-size:15px; color:var(--ink-soft); line-height:1.55; }
+  .stop .text p{ margin:0 0 14px; font-size:16px; font-weight:500; color:var(--ink-soft); line-height:1.55; }
 
   .btn-wine{
     display:inline-flex; align-items:center; justify-content:center; gap:7px;
@@ -148,7 +149,7 @@
   .btn-solid:hover{ background:var(--wine-dark); }
 
   .dresscode{ text-align:center; margin:34px 0 6px; }
-  .dresscode .lbl{ letter-spacing:4px; font-size:12px; color:var(--ink-soft); margin-bottom:10px; }
+  .dresscode .lbl{ letter-spacing:3.5px; font-size:13px; font-weight:600; color:var(--ink-soft); margin-bottom:10px; }
   .dresscode .val{ color:var(--wine); font-size:24px; letter-spacing:1px; }
 
   /* ---------- RSVP ---------- */
@@ -168,7 +169,7 @@
   .gift-card p{ font-size:15px; color:var(--ink); line-height:1.65; margin:0 0 24px; }
 
   .closing{ text-align:center; padding-bottom:44px; }
-  .madewith{ margin-top:26px; letter-spacing:3px; font-size:12px; color:var(--ink-soft); }
+  .madewith{ margin-top:26px; letter-spacing:2.5px; font-size:13px; font-weight:600; color:var(--ink-soft); }
   .madewith .heart{ color:var(--wine); }
 
   /* ---------- MODAL ---------- */
@@ -236,7 +237,7 @@
     <div class="eyebrow">NUESTRA PLAYLIST</div>
 
     <div class="spotify-embed">
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/601smenDeWUa9aj8aJ3iKu?utm_source=generator&amp;si=35bf1eb9305445d5" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Nuestra playlist en Spotify"></iframe>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/601smenDeWUa9aj8aJ3iKu?utm_source=generator&amp;si=35bf1eb9305445d5" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Nuestra playlist en Spotify"></iframe>
     </div>
 
     <div class="countdown">
